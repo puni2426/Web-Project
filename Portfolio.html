@@ -1,0 +1,177 @@
+<html>
+<head>
+    <title>Web Page</title>
+    
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style>
+    body {
+  
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+    .up{
+        text-align:center;
+        background-color: tomato;
+    }
+    .dark-mode {
+  background-color: black;
+  color: white;
+}
+.button{
+    background-color:#4CAF50;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.parag{
+    text-align: center;
+    
+}
+.para{
+    text-justify: auto;
+}
+.proj{
+    text-align: center;
+}
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+ .tl{
+     padding:20px;
+     }
+     .pj{
+
+     padding:10px;
+
+     }
+.pin{
+
+    background-color:#4CAF50;
+
+    border: none;
+
+  color: white;
+
+  padding: 15px 32px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 25px;
+
+}
+     h2:hover{
+        text-size:25px;
+        }
+</style>
+<body>
+    
+    <div class="up"><br><br>
+    <h1><strong><span style="color:white;">I'M PUNITH S</span></strong></h1>
+    <h3 style="color:white;">STUDENT</h3>
+    <button title="Dark mode ON/OFF" class="button" onclick="myFunction()">Toggle dark mode</button>
+
+    
+    <br><br></div>
+    
+    <div class="parag">
+        <h2 id="About Me">About Me</h2>
+        
+          <p class="para"><strong>I am Punith, Student At AIET I am pursuing a Computer Science and<br> Engineering in Bachelor of Engineering.Coding, web development<br> and cyber security are some of my interest.</strong></p>
+          <p class="para"><strong>I enjoy creating software and seeking solutions that have a positive <br>effect on other people's lives.I enjoy attending hackathons and meeting<br> new people.</strong></p>
+        
+    </div><br><hr><br>
+    <div class="tl">
+        <h2> Technical Language</h2>
+            <label for="file">C/C++</label>
+            <progress id="file" value="80" max="100"> 80%</progress><br>
+
+            <label for="file1">Java</label>
+            <progress id="file1" value="80" max="100"> 80% </progress><br>
+
+            <label for="file2">Python  </label>
+            <progress id="file2" value="80" max="100"> 80% </progress><br>
+
+            <label for="file2">HTML & CSS  </label>
+            <progress id="file2" value="80" max="100"> 80% </progress>
+    </div> 
+<br><hr><br>
+        <section class="proj"><h2 id="Project"><strong>Project</strong></h2>
+         
+        <h3>Bus Booking System</h3><div class="pj">
+        <img src="images/bus - Copy.jpg" alt="bus " width="100%" height="400" style="border:5px solid black">
+          </div>  <p>During tough case scenario's,it is difficult to select convenient ride, We have created onlne platform to ease user's ride and booking instantly. </p>
+        <br><h3>Automate identification and recognition of handwritten text from an image</h3>
+       <div class="pj">
+            <img src="images/handwritten.png" alt="handwritten" width="100%" height="400" style="border:5px solid black">
+        </div><p>Implement of algorithms to recognition and take input of any user written material with precision.</p>
+        <br><h3>Python Stuff</h3>
+          <div class="pj">  
+        <img src="images/code.jpg" alt="code" width="100%" height="400" style="border:5px solid black">
+        </div><br><p>Collection of scripts develop in python to solve problems, analyse text files, manipulate text, CLI based<br> games and more..</p>
+        <p>Great resource to understand basic python scripting.</p>
+       <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script><br><hr><br>
+            <footer class="footer-area">
+                <div class="container">
+                    <div class="">
+        
+                        <div class="social text-center">
+                            <a id="Follow Me"></a>
+                            <h2 class="text-uppercase">Follow Me</h2>
+                            <a title="facebook" href="https://www.facebook.com" class="fa fa-facebook"></a>
+                            <a title="github" href="https://github.com/puni2426" class="fa fa-github"></a>
+                         
+                            <a title="linkedin" ref="https://www.linkedin.com/in/punith-s-515291199" class="fa fa-linkedin"></a>
+                           
+                        </div>
+                        <div class="copyrights text-center">
+                            <p class="para">
+                                Copyright © 2021 Punith S. All rights reserved
+        
+                            </p>
+                            <br>
+
+<button title="Printing the page" class="pin" onclick="window.print()">Print</button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+</body>
+</html>
